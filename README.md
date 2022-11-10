@@ -33,4 +33,4 @@ node app.js
 
 Go to localhost:3000 on your browser for a project demo.
 
-To compose a blog post, Just Click on the + compose button 
+To compose a blog post, Just Click on the "+ compose" button 
