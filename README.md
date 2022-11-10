@@ -40,6 +40,6 @@ To compose a blog post, Just Click on the "+ compose" button
 - Udemy
 
 ## Demo 
-Visit Below link for demo vedio
+Visit given link for demo clip
 https://clipchamp.com/watch/njvz4jsAHmH
 
