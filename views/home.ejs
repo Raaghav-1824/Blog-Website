@@ -1,0 +1,27 @@
+<%-include("partials/header");-%>
+    <h1>
+        Home
+    </h1>
+    <p>
+        <%=homeContent%>
+    </p>
+    <div>
+        <% for(var i=0;i<dataArray.length;i++){ %>
+            <div>
+                <h3>
+                    <%=dataArray[i].title %>
+                </h3>
+            </div>
+            <div>
+                <p>
+                    <%=dataArray[i].post.substring(0,100)+"..." %><span><a href="/posts/<%=dataArray[i].title%>">Read More</a></span>
+                </p>
+            </div>
+            <%}%>
+
+    </div>
+    <div class="composebtn">
+        <button id="compose-btn" onclick="window.location.href = '/compose';" class="btn btn-primary name="button" type="button">+ Compose</button>
+    </div>
+
+    <%-include("partials/footer");-%>
