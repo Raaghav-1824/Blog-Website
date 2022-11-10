@@ -34,3 +34,8 @@ node app.js
 Go to localhost:3000 on your browser for a project demo.
 
 To compose a blog post, Just Click on the "+ compose" button 
+
+## Credits
+- Dr. Angela Yu
+- Udemy
+
